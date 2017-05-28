@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lexus</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/main.js"></script>
+</head>
+<body>
+  <div id="box">
+    <div id="title"></div>
+    <div id="bar"></div>
+    <div id="top-logo"></div>
+    <div id="bottom-logo"></div>
+    <div id="explore" onclick="showCarousel(this)"></div>
+    <div id="learn" onclick="showCarousel(this)"></div>
+    <div id="options"></div>
+    <div id="overlay" onclick="hideCarousel()"></div>
+    <div class="arrow" onclick="showCarousel(this)" id="arrow-1"></div>
+    <div class="arrow" onclick="showCarousel(this)" id="arrow-2"></div>
+    <div class="arrow" onclick="showCarousel(this)" id="arrow-3"></div>
+    <div class="arrow" onclick="showCarousel(this)" id="arrow-4"></div>
+    <div class="arrow" onclick="showCarousel(this)" id="arrow-5"></div>
+    <div class="carousel" id="carousel-1">
+      <div class="controls">
+        <div class="close" onclick="hideCarousel(this)"></div>
+        <div class="left" onclick="moveSlide('left')"></div>
+        <div class="right" onclick="moveSlide('right')"></div>
+      </div>
+      <div class="slider" style="transform: translateX(0%)">
+        <div class="slide" id="slide-1">
+          <div class="img"></div>
+          <div class="title"></div>
+          <div class="description"></div>
+        </div>
+        <div class="slide" id="slide-2">
+          <div class="img"></div>
+          <div class="title"></div>
+          <div class="description"></div>
+        </div>
+        <div class="slide" id="slide-3">
+          <div class="img"></div>
+          <div class="title"></div>
+          <div class="description"></div>
+        </div>
+        <div class="slide" id="slide-4">
+          <div class="img"></div>
+          <div class="title"></div>
+          <div class="description"></div>
+        </div>
+        <div class="slide" id="slide-5">
+          <div class="img"></div>
+          <div class="title"></div>
+          <div class="description"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
